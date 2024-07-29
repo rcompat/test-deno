@@ -2,7 +2,7 @@
   "name": "test-deno",
   "version": "0.0.0",
   "scripts": {
-    "test": "deno run app.js"
+    "test": "deno run -A app.js"
   },
   "dependencies": {
     "@rcompat/fs": "^0.4.0"
