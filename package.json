@@ -5,6 +5,6 @@
     "test": "deno run -A app.js"
   },
   "dependencies": {
-    "@rcompat/fs": "^0.4.0"
+    "@rcompat/sql": "^0.4.0"
   }
 }

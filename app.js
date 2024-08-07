@@ -1,3 +1,3 @@
-import file from "@rcompat/fs/file";
+import Database from "@rcompat/sql/sqlite";
 
-console.log(await file("/tmp/tmp.txt").text());
+const db = new Database(":memory:", { create: true });
